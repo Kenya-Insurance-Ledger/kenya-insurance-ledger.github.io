@@ -10,7 +10,7 @@ npm run dev      # local development
 npm run build    # type-check + production build to dist/
 ```
 
-Live site: https://tooemmanuel2020-code.github.io/kenya-insurance-ledger/ — deployed by `.github/workflows/deploy.yml` on every push to `main`.
+Live site: https://kenya-insurance-ledger.github.io/ — deployed by `.github/workflows/deploy.yml` on every push to `main`.
 
 Tests: `tests/test4.py` (Playwright, 59 checks) expects the built `dist/` served at `http://127.0.0.1:8766`.
 

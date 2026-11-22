@@ -1,7 +1,7 @@
 name: Deploy to GitHub Pages
 
 # Builds the site and publishes dist/ to the gh-pages branch,
-# which GitHub Pages serves at https://tooemmanuel2020-code.github.io/kgii-portal/
+# which GitHub Pages serves at https://tooemmanuel2020-code.github.io/kenya-insurance-ledger/
 on:
   push:
     branches: [main]

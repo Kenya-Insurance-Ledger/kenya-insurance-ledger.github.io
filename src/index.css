@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html { scroll-padding-top: 72px; }
+body { font-size: 15px; line-height: 1.55; overflow-x: clip; }
+*:focus-visible { outline: 3px solid rgb(2 132 199 / .6); outline-offset: 2px; }
+.ring-dashed { --tw-ring-offset-shadow: 0 0 #0000; }
+.recharts-text { font-family: Inter, system-ui, sans-serif; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
